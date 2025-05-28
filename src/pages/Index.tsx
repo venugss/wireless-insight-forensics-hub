@@ -1,8 +1,8 @@
-
 import React from 'react';
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
 import Layout from '@/components/Layout';
+import ToolsDiagram from '@/components/ToolsDiagram';
 
 const Index: React.FC = () => {
   return (
@@ -31,6 +31,12 @@ const Index: React.FC = () => {
       </section>
 
       <section className="bg-muted/50 py-12 md:py-24 lg:py-32">
+        <div className="container px-4 md:px-6">
+          <ToolsDiagram />
+        </div>
+      </section>
+
+      <section className="py-12 md:py-24 lg:py-32">
         <div className="container px-4 md:px-6">
           <div className="mx-auto flex max-w-[58rem] flex-col items-center justify-center gap-4 text-center">
             <h2 className="text-3xl font-bold leading-[1.1] sm:text-3xl md:text-5xl">
